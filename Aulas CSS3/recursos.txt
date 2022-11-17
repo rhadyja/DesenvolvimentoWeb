@@ -3,3 +3,5 @@ bordas style: https://www.w3schools.com/css/css_border.asp
 gerador de cores: https://html-color-codes.info/Codigos-de-Cores-HTML/
 
 fontes: https://www.w3schools.com/cssref/css_websafe_fonts.php
+
+utilizando apenas "font:" : https://www.w3schools.com/cssref/pr_font_font.php
