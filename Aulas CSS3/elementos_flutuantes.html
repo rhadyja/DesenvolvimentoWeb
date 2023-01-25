@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Modelo de Caixa</title>
+        <meta charset="utf-8">
+        <style>
+            #conteudo{
+                border: 5px solid red;
+                background-color: blue;
+                width: 200px;
+                height: 100px;
+                margin: 10px;
+                float: left; /*left, right, none*/
+            }
+            #conteudo-zero{
+                border: 5px solid red;
+                background-color: blue;
+                width: 200px;
+                height: 100px;
+                margin: 10px;
+            }
+            #limpar{
+                clear: both; /*left, right, both(ambos)*//*interromper flutuação*/
+            }
+        
+        </style>
+    </head>
+
+    <body>
+        <div id="conteudo">
+            Conteudo1
+        </div>
+
+        <div id="conteudo">
+            Conteudo2
+        </div>
+
+        <div id="limpar"></div> <!-- interrompendo flutuação-->
+
+        <div id="conteudo-zero">
+            Conteudo3
+        </div>
+
+    </body>
+</html>
