@@ -1,4 +1,10 @@
-.texto{
+/*.texto{
     color:white;
     background: orange;
+} */
+
+#conteudo{
+    border: 5px solid;
+    padding: 5px; /*espaçamento interno*//*padding-top, -left, -right, -bottom*/
+    margin: 10px; /*espaçamento entre blocos*//*margin-top, -left, -right, -bottom*/
 }
